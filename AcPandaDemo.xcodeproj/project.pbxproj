@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A23F000B1C28E0C600E5C858 /* AcHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A23F00061C28E0C600E5C858 /* AcHook.m */; };
-		A23F000C1C28E0C600E5C858 /* AcMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A23F00081C28E0C600E5C858 /* AcMenu.m */; };
-		A23F000D1C28E0C600E5C858 /* AcNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = A23F000A1C28E0C600E5C858 /* AcNotification.m */; };
+		A2D21D101C29261F009002C5 /* AcHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21CF41C29261F009002C5 /* AcHook.m */; };
+		A2D21D111C29261F009002C5 /* DVTTextCompletionSession+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21CF61C29261F009002C5 /* DVTTextCompletionSession+hook.m */; };
+		A2D21D121C29261F009002C5 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21CF91C29261F009002C5 /* JRSwizzle.m */; };
+		A2D21D131C29261F009002C5 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D21CFB1C29261F009002C5 /* DVTFoundation.framework */; };
+		A2D21D141C29261F009002C5 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D21CFD1C29261F009002C5 /* DVTKit.framework */; };
+		A2D21D151C29261F009002C5 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D21D051C29261F009002C5 /* IDEKit.framework */; };
+		A2D21D161C29261F009002C5 /* AcMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21D0C1C29261F009002C5 /* AcMenu.m */; };
+		A2D21D171C29261F009002C5 /* AcNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21D0F1C29261F009002C5 /* AcNotification.m */; };
 		A2F2632C1C279AD90058CCB8 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F2632B1C279AD90058CCB8 /* AppKit.framework */; };
 		A2F2632E1C279AD90058CCB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F2632D1C279AD90058CCB8 /* Foundation.framework */; };
 		A2F263321C279AD90058CCB8 /* AcPandaDemo.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = A2F263311C279AD90058CCB8 /* AcPandaDemo.xcscheme */; };
@@ -17,20 +22,31 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A23F00001C28E03D00E5C858 /* IDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEViewController.h; sourceTree = "<group>"; };
-		A23F00051C28E0C600E5C858 /* AcHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcHook.h; sourceTree = "<group>"; };
-		A23F00061C28E0C600E5C858 /* AcHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcHook.m; sourceTree = "<group>"; };
-		A23F00071C28E0C600E5C858 /* AcMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcMenu.h; sourceTree = "<group>"; };
-		A23F00081C28E0C600E5C858 /* AcMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcMenu.m; sourceTree = "<group>"; };
-		A23F00091C28E0C600E5C858 /* AcNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcNotification.h; sourceTree = "<group>"; };
-		A23F000A1C28E0C600E5C858 /* AcNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcNotification.m; sourceTree = "<group>"; };
-		A23FFFF91C28E03D00E5C858 /* DVTLayoutView_ML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTLayoutView_ML.h; sourceTree = "<group>"; };
-		A23FFFFA1C28E03D00E5C858 /* DVTTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTTextStorage.h; sourceTree = "<group>"; };
-		A23FFFFB1C28E03D00E5C858 /* DVTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTViewController.h; sourceTree = "<group>"; };
-		A23FFFFC1C28E03D00E5C858 /* IDEEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEEditor.h; sourceTree = "<group>"; };
-		A23FFFFD1C28E03D00E5C858 /* IDESourceCodeDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeDocument.h; sourceTree = "<group>"; };
-		A23FFFFE1C28E03D00E5C858 /* IDESourceCodeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditor.h; sourceTree = "<group>"; };
-		A23FFFFF1C28E03D00E5C858 /* IDESourceCodeEditorContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditorContainerView.h; sourceTree = "<group>"; };
+		A2D21CF31C29261F009002C5 /* AcHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcHook.h; sourceTree = "<group>"; };
+		A2D21CF41C29261F009002C5 /* AcHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcHook.m; sourceTree = "<group>"; };
+		A2D21CF51C29261F009002C5 /* DVTTextCompletionSession+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionSession+hook.h"; sourceTree = "<group>"; };
+		A2D21CF61C29261F009002C5 /* DVTTextCompletionSession+hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTTextCompletionSession+hook.m"; sourceTree = "<group>"; };
+		A2D21CF81C29261F009002C5 /* JRSwizzle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRSwizzle.h; sourceTree = "<group>"; };
+		A2D21CF91C29261F009002C5 /* JRSwizzle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRSwizzle.m; sourceTree = "<group>"; };
+		A2D21CFB1C29261F009002C5 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DVTFoundation.framework; sourceTree = "<group>"; };
+		A2D21CFC1C29261F009002C5 /* DVTInvalidation_protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTInvalidation_protocol.h; sourceTree = "<group>"; };
+		A2D21CFD1C29261F009002C5 /* DVTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DVTKit.framework; sourceTree = "<group>"; };
+		A2D21CFE1C29261F009002C5 /* DVTLayoutView_ML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTLayoutView_ML.h; sourceTree = "<group>"; };
+		A2D21CFF1C29261F009002C5 /* DVTTextCompletionDataSourceDelegate_protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTTextCompletionDataSourceDelegate_protocol.h; sourceTree = "<group>"; };
+		A2D21D001C29261F009002C5 /* DVTTextCompletionItem_protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTTextCompletionItem_protocol.h; sourceTree = "<group>"; };
+		A2D21D011C29261F009002C5 /* DVTTextCompletionSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTTextCompletionSession.h; sourceTree = "<group>"; };
+		A2D21D021C29261F009002C5 /* DVTTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTTextStorage.h; sourceTree = "<group>"; };
+		A2D21D031C29261F009002C5 /* DVTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTViewController.h; sourceTree = "<group>"; };
+		A2D21D041C29261F009002C5 /* IDEEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEEditor.h; sourceTree = "<group>"; };
+		A2D21D051C29261F009002C5 /* IDEKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDEKit.framework; sourceTree = "<group>"; };
+		A2D21D061C29261F009002C5 /* IDESourceCodeDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeDocument.h; sourceTree = "<group>"; };
+		A2D21D071C29261F009002C5 /* IDESourceCodeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditor.h; sourceTree = "<group>"; };
+		A2D21D081C29261F009002C5 /* IDESourceCodeEditorContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditorContainerView.h; sourceTree = "<group>"; };
+		A2D21D091C29261F009002C5 /* IDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEViewController.h; sourceTree = "<group>"; };
+		A2D21D0B1C29261F009002C5 /* AcMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcMenu.h; sourceTree = "<group>"; };
+		A2D21D0C1C29261F009002C5 /* AcMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcMenu.m; sourceTree = "<group>"; };
+		A2D21D0E1C29261F009002C5 /* AcNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcNotification.h; sourceTree = "<group>"; };
+		A2D21D0F1C29261F009002C5 /* AcNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcNotification.m; sourceTree = "<group>"; };
 		A2F263281C279AD90058CCB8 /* AcPandaDemo.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcPandaDemo.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F2632B1C279AD90058CCB8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		A2F2632D1C279AD90058CCB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -47,38 +63,85 @@
 			files = (
 				A2F2632C1C279AD90058CCB8 /* AppKit.framework in Frameworks */,
 				A2F2632E1C279AD90058CCB8 /* Foundation.framework in Frameworks */,
+				A2D21D141C29261F009002C5 /* DVTKit.framework in Frameworks */,
+				A2D21D131C29261F009002C5 /* DVTFoundation.framework in Frameworks */,
+				A2D21D151C29261F009002C5 /* IDEKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A23F00041C28E0C600E5C858 /* AcPanda */ = {
+		A2D21CF11C29261F009002C5 /* AcPanda */ = {
 			isa = PBXGroup;
 			children = (
-				A23F00051C28E0C600E5C858 /* AcHook.h */,
-				A23F00061C28E0C600E5C858 /* AcHook.m */,
-				A23F00071C28E0C600E5C858 /* AcMenu.h */,
-				A23F00081C28E0C600E5C858 /* AcMenu.m */,
-				A23F00091C28E0C600E5C858 /* AcNotification.h */,
-				A23F000A1C28E0C600E5C858 /* AcNotification.m */,
+				A2D21CF21C29261F009002C5 /* AcHook */,
+				A2D21D0A1C29261F009002C5 /* AcMenu */,
+				A2D21D0D1C29261F009002C5 /* AcNotification */,
 			);
 			path = AcPanda;
 			sourceTree = "<group>";
 		};
-		A23FFFF81C28E03D00E5C858 /* XcodeHeaders */ = {
+		A2D21CF21C29261F009002C5 /* AcHook */ = {
 			isa = PBXGroup;
 			children = (
-				A23FFFF91C28E03D00E5C858 /* DVTLayoutView_ML.h */,
-				A23FFFFA1C28E03D00E5C858 /* DVTTextStorage.h */,
-				A23FFFFB1C28E03D00E5C858 /* DVTViewController.h */,
-				A23FFFFC1C28E03D00E5C858 /* IDEEditor.h */,
-				A23FFFFD1C28E03D00E5C858 /* IDESourceCodeDocument.h */,
-				A23FFFFE1C28E03D00E5C858 /* IDESourceCodeEditor.h */,
-				A23FFFFF1C28E03D00E5C858 /* IDESourceCodeEditorContainerView.h */,
-				A23F00001C28E03D00E5C858 /* IDEViewController.h */,
+				A2D21CF31C29261F009002C5 /* AcHook.h */,
+				A2D21CF41C29261F009002C5 /* AcHook.m */,
+				A2D21CF51C29261F009002C5 /* DVTTextCompletionSession+hook.h */,
+				A2D21CF61C29261F009002C5 /* DVTTextCompletionSession+hook.m */,
+				A2D21CF71C29261F009002C5 /* JRSwizzle */,
+				A2D21CFA1C29261F009002C5 /* XcodeHeaders */,
+			);
+			path = AcHook;
+			sourceTree = "<group>";
+		};
+		A2D21CF71C29261F009002C5 /* JRSwizzle */ = {
+			isa = PBXGroup;
+			children = (
+				A2D21CF81C29261F009002C5 /* JRSwizzle.h */,
+				A2D21CF91C29261F009002C5 /* JRSwizzle.m */,
+			);
+			path = JRSwizzle;
+			sourceTree = "<group>";
+		};
+		A2D21CFA1C29261F009002C5 /* XcodeHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				A2D21CFB1C29261F009002C5 /* DVTFoundation.framework */,
+				A2D21CFC1C29261F009002C5 /* DVTInvalidation_protocol.h */,
+				A2D21CFD1C29261F009002C5 /* DVTKit.framework */,
+				A2D21CFE1C29261F009002C5 /* DVTLayoutView_ML.h */,
+				A2D21CFF1C29261F009002C5 /* DVTTextCompletionDataSourceDelegate_protocol.h */,
+				A2D21D001C29261F009002C5 /* DVTTextCompletionItem_protocol.h */,
+				A2D21D011C29261F009002C5 /* DVTTextCompletionSession.h */,
+				A2D21D021C29261F009002C5 /* DVTTextStorage.h */,
+				A2D21D031C29261F009002C5 /* DVTViewController.h */,
+				A2D21D041C29261F009002C5 /* IDEEditor.h */,
+				A2D21D051C29261F009002C5 /* IDEKit.framework */,
+				A2D21D061C29261F009002C5 /* IDESourceCodeDocument.h */,
+				A2D21D071C29261F009002C5 /* IDESourceCodeEditor.h */,
+				A2D21D081C29261F009002C5 /* IDESourceCodeEditorContainerView.h */,
+				A2D21D091C29261F009002C5 /* IDEViewController.h */,
 			);
 			path = XcodeHeaders;
+			sourceTree = "<group>";
+		};
+		A2D21D0A1C29261F009002C5 /* AcMenu */ = {
+			isa = PBXGroup;
+			children = (
+				A2D21D0B1C29261F009002C5 /* AcMenu.h */,
+				A2D21D0C1C29261F009002C5 /* AcMenu.m */,
+			);
+			path = AcMenu;
+			sourceTree = "<group>";
+		};
+		A2D21D0D1C29261F009002C5 /* AcNotification */ = {
+			isa = PBXGroup;
+			children = (
+				A2D21D0E1C29261F009002C5 /* AcNotification.h */,
+				A2D21D0F1C29261F009002C5 /* AcNotification.m */,
+			);
+			path = AcNotification;
 			sourceTree = "<group>";
 		};
 		A2F2631F1C279AD90058CCB8 = {
@@ -110,8 +173,7 @@
 		A2F2632F1C279AD90058CCB8 /* AcPandaDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A23F00041C28E0C600E5C858 /* AcPanda */,
-				A23FFFF81C28E03D00E5C858 /* XcodeHeaders */,
+				A2D21CF11C29261F009002C5 /* AcPanda */,
 				A2F263331C279AD90058CCB8 /* AcPandaDemo.h */,
 				A2F263341C279AD90058CCB8 /* AcPandaDemo.m */,
 				A2F263361C279AD90058CCB8 /* Info.plist */,
@@ -195,10 +257,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A23F000B1C28E0C600E5C858 /* AcHook.m in Sources */,
-				A23F000C1C28E0C600E5C858 /* AcMenu.m in Sources */,
+				A2D21D171C29261F009002C5 /* AcNotification.m in Sources */,
+				A2D21D111C29261F009002C5 /* DVTTextCompletionSession+hook.m in Sources */,
+				A2D21D101C29261F009002C5 /* AcHook.m in Sources */,
+				A2D21D161C29261F009002C5 /* AcMenu.m in Sources */,
+				A2D21D121C29261F009002C5 /* JRSwizzle.m in Sources */,
 				A2F263351C279AD90058CCB8 /* AcPandaDemo.m in Sources */,
-				A23F000D1C28E0C600E5C858 /* AcNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,9 +345,15 @@
 		A2F2633A1C279AD90058CCB8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/AcPandaDemo/AcPanda/AcHook/XcodeHeaders",
+				);
 				INFOPLIST_FILE = AcPandaDemo/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
@@ -296,9 +366,15 @@
 		A2F2633B1C279AD90058CCB8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libc++";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = "$(HOME)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/AcPandaDemo/AcPanda/AcHook/XcodeHeaders",
+				);
 				INFOPLIST_FILE = AcPandaDemo/Info.plist;
 				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;

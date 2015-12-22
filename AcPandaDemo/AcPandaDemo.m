@@ -8,6 +8,10 @@
 
 #import "AcPandaDemo.h"
 
+#import "AcMenu.h"
+#import "AcNotification.h"
+#import "AcHook.h"
+
 static AcPandaDemo *sharedPlugin;
  
 @interface AcPandaDemo()
@@ -61,12 +65,20 @@ static AcPandaDemo *sharedPlugin;
     if (menuItem)
     {
         [[menuItem submenu] addItem:[NSMenuItem separatorItem]];
-        NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"AcPanda"
+        NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"🐼"
                                                                 action:nil
                                                          keyEquivalent:@""];
         [actionMenuItem setTarget:self];
         [[menuItem submenu] addItem:actionMenuItem];
     }
+    
+//    NSArray *menuItems = [AcMenu allRootMenuItems];
+//    NSLog(@"%@",menuItems);
+//    [AcMenu resetRootMenuItemTitle];
+//    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
+//    NSLog(@"%@",[ud dictionaryRepresentation]);
+    
+    [AcHook loadHook];
 }
 #pragma mark allNotification
 
