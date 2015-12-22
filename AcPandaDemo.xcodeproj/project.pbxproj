@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A23F000B1C28E0C600E5C858 /* AcHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A23F00061C28E0C600E5C858 /* AcHook.m */; };
+		A23F000C1C28E0C600E5C858 /* AcMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = A23F00081C28E0C600E5C858 /* AcMenu.m */; };
+		A23F000D1C28E0C600E5C858 /* AcNotification.m in Sources */ = {isa = PBXBuildFile; fileRef = A23F000A1C28E0C600E5C858 /* AcNotification.m */; };
 		A2F2632C1C279AD90058CCB8 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F2632B1C279AD90058CCB8 /* AppKit.framework */; };
 		A2F2632E1C279AD90058CCB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F2632D1C279AD90058CCB8 /* Foundation.framework */; };
 		A2F263321C279AD90058CCB8 /* AcPandaDemo.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = A2F263311C279AD90058CCB8 /* AcPandaDemo.xcscheme */; };
@@ -14,6 +17,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A23F00001C28E03D00E5C858 /* IDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEViewController.h; sourceTree = "<group>"; };
+		A23F00051C28E0C600E5C858 /* AcHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcHook.h; sourceTree = "<group>"; };
+		A23F00061C28E0C600E5C858 /* AcHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcHook.m; sourceTree = "<group>"; };
+		A23F00071C28E0C600E5C858 /* AcMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcMenu.h; sourceTree = "<group>"; };
+		A23F00081C28E0C600E5C858 /* AcMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcMenu.m; sourceTree = "<group>"; };
+		A23F00091C28E0C600E5C858 /* AcNotification.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcNotification.h; sourceTree = "<group>"; };
+		A23F000A1C28E0C600E5C858 /* AcNotification.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcNotification.m; sourceTree = "<group>"; };
+		A23FFFF91C28E03D00E5C858 /* DVTLayoutView_ML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTLayoutView_ML.h; sourceTree = "<group>"; };
+		A23FFFFA1C28E03D00E5C858 /* DVTTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTTextStorage.h; sourceTree = "<group>"; };
+		A23FFFFB1C28E03D00E5C858 /* DVTViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTViewController.h; sourceTree = "<group>"; };
+		A23FFFFC1C28E03D00E5C858 /* IDEEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEEditor.h; sourceTree = "<group>"; };
+		A23FFFFD1C28E03D00E5C858 /* IDESourceCodeDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeDocument.h; sourceTree = "<group>"; };
+		A23FFFFE1C28E03D00E5C858 /* IDESourceCodeEditor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditor.h; sourceTree = "<group>"; };
+		A23FFFFF1C28E03D00E5C858 /* IDESourceCodeEditorContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceCodeEditorContainerView.h; sourceTree = "<group>"; };
 		A2F263281C279AD90058CCB8 /* AcPandaDemo.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AcPandaDemo.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F2632B1C279AD90058CCB8 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		A2F2632D1C279AD90058CCB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
@@ -36,6 +53,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A23F00041C28E0C600E5C858 /* AcPanda */ = {
+			isa = PBXGroup;
+			children = (
+				A23F00051C28E0C600E5C858 /* AcHook.h */,
+				A23F00061C28E0C600E5C858 /* AcHook.m */,
+				A23F00071C28E0C600E5C858 /* AcMenu.h */,
+				A23F00081C28E0C600E5C858 /* AcMenu.m */,
+				A23F00091C28E0C600E5C858 /* AcNotification.h */,
+				A23F000A1C28E0C600E5C858 /* AcNotification.m */,
+			);
+			path = AcPanda;
+			sourceTree = "<group>";
+		};
+		A23FFFF81C28E03D00E5C858 /* XcodeHeaders */ = {
+			isa = PBXGroup;
+			children = (
+				A23FFFF91C28E03D00E5C858 /* DVTLayoutView_ML.h */,
+				A23FFFFA1C28E03D00E5C858 /* DVTTextStorage.h */,
+				A23FFFFB1C28E03D00E5C858 /* DVTViewController.h */,
+				A23FFFFC1C28E03D00E5C858 /* IDEEditor.h */,
+				A23FFFFD1C28E03D00E5C858 /* IDESourceCodeDocument.h */,
+				A23FFFFE1C28E03D00E5C858 /* IDESourceCodeEditor.h */,
+				A23FFFFF1C28E03D00E5C858 /* IDESourceCodeEditorContainerView.h */,
+				A23F00001C28E03D00E5C858 /* IDEViewController.h */,
+			);
+			path = XcodeHeaders;
+			sourceTree = "<group>";
+		};
 		A2F2631F1C279AD90058CCB8 = {
 			isa = PBXGroup;
 			children = (
@@ -65,7 +110,8 @@
 		A2F2632F1C279AD90058CCB8 /* AcPandaDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A2F2633C1C279ADC0058CCB8 /* AcPanda */,
+				A23F00041C28E0C600E5C858 /* AcPanda */,
+				A23FFFF81C28E03D00E5C858 /* XcodeHeaders */,
 				A2F263331C279AD90058CCB8 /* AcPandaDemo.h */,
 				A2F263341C279AD90058CCB8 /* AcPandaDemo.m */,
 				A2F263361C279AD90058CCB8 /* Info.plist */,
@@ -80,13 +126,6 @@
 				A2F263311C279AD90058CCB8 /* AcPandaDemo.xcscheme */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		A2F2633C1C279ADC0058CCB8 /* AcPanda */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = AcPanda;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,7 +195,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A23F000B1C28E0C600E5C858 /* AcHook.m in Sources */,
+				A23F000C1C28E0C600E5C858 /* AcMenu.m in Sources */,
 				A2F263351C279AD90058CCB8 /* AcPandaDemo.m in Sources */,
+				A23F000D1C28E0C600E5C858 /* AcNotification.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +327,7 @@
 				A2F2633B1C279AD90058CCB8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
