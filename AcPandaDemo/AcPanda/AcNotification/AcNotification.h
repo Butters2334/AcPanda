@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface AcNotification : NSObject
-
++(void)loadNotification;
 @end

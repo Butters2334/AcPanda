@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A24B99E31C2A33D60085BA90 /* AcShare.m in Sources */ = {isa = PBXBuildFile; fileRef = A24B99E21C2A33D60085BA90 /* AcShare.m */; };
 		A2D21D101C29261F009002C5 /* AcHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21CF41C29261F009002C5 /* AcHook.m */; };
 		A2D21D111C29261F009002C5 /* DVTTextCompletionSession+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21CF61C29261F009002C5 /* DVTTextCompletionSession+hook.m */; };
 		A2D21D121C29261F009002C5 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21CF91C29261F009002C5 /* JRSwizzle.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A24B99E11C2A33D60085BA90 /* AcShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcShare.h; sourceTree = "<group>"; };
+		A24B99E21C2A33D60085BA90 /* AcShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcShare.m; sourceTree = "<group>"; };
 		A2D21CF31C29261F009002C5 /* AcHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcHook.h; sourceTree = "<group>"; };
 		A2D21CF41C29261F009002C5 /* AcHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcHook.m; sourceTree = "<group>"; };
 		A2D21CF51C29261F009002C5 /* DVTTextCompletionSession+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionSession+hook.h"; sourceTree = "<group>"; };
@@ -72,9 +75,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A24B99E01C2A33D60085BA90 /* AcShare */ = {
+			isa = PBXGroup;
+			children = (
+				A24B99E11C2A33D60085BA90 /* AcShare.h */,
+				A24B99E21C2A33D60085BA90 /* AcShare.m */,
+			);
+			path = AcShare;
+			sourceTree = "<group>";
+		};
 		A2D21CF11C29261F009002C5 /* AcPanda */ = {
 			isa = PBXGroup;
 			children = (
+				A24B99E01C2A33D60085BA90 /* AcShare */,
 				A2D21CF21C29261F009002C5 /* AcHook */,
 				A2D21D0A1C29261F009002C5 /* AcMenu */,
 				A2D21D0D1C29261F009002C5 /* AcNotification */,
@@ -260,6 +273,7 @@
 				A2D21D171C29261F009002C5 /* AcNotification.m in Sources */,
 				A2D21D111C29261F009002C5 /* DVTTextCompletionSession+hook.m in Sources */,
 				A2D21D101C29261F009002C5 /* AcHook.m in Sources */,
+				A24B99E31C2A33D60085BA90 /* AcShare.m in Sources */,
 				A2D21D161C29261F009002C5 /* AcMenu.m in Sources */,
 				A2D21D121C29261F009002C5 /* JRSwizzle.m in Sources */,
 				A2F263351C279AD90058CCB8 /* AcPandaDemo.m in Sources */,

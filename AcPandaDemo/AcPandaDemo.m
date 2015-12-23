@@ -61,7 +61,7 @@ static AcPandaDemo *sharedPlugin;
                                                     name:NSApplicationDidFinishLaunchingNotification
                                                   object:nil];
     //在通知回调之后才能获取到mainMenu对象
-    NSMenuItem *menuItem = [[NSApp mainMenu] itemWithTitle:@"Edit"];
+    NSMenuItem *menuItem = [AcMenu rootMenuWithTitle:@"Edit"];
     if (menuItem)
     {
         [[menuItem submenu] addItem:[NSMenuItem separatorItem]];
@@ -79,7 +79,10 @@ static AcPandaDemo *sharedPlugin;
 //    NSLog(@"%@",[ud dictionaryRepresentation]);
     
     [AcHook loadHook];
+    
+    [AcNotification loadNotification];
 }
+
 #pragma mark allNotification
 
 #pragma mark allHook
