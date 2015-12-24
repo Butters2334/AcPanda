@@ -11,6 +11,7 @@
 #import "AcMenu.h"
 #import "AcNotification.h"
 #import "AcHook.h"
+#import "AcShareXcode.h"
 
 static AcPandaDemo *sharedPlugin;
  
@@ -68,7 +69,8 @@ static AcPandaDemo *sharedPlugin;
         NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"🐼"
                                                                 action:nil
                                                          keyEquivalent:@""];
-        [actionMenuItem setTarget:self];
+        [actionMenuItem setTarget:AcShareXcode.class];
+        [actionMenuItem setAction:@selector(textView)];
         [[menuItem submenu] addItem:actionMenuItem];
     }
     
@@ -81,6 +83,8 @@ static AcPandaDemo *sharedPlugin;
     [AcHook loadHook];
     
     [AcNotification loadNotification];
+    
+//    [AcShareXcode currentEditor];
 }
 
 #pragma mark allNotification
