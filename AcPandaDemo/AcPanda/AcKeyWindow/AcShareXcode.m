@@ -9,6 +9,7 @@
 #import "AcShareXcode.h"
 #import "AcXcodePrivate.h"
 #import <Cocoa/Cocoa.h>
+#import "NSObject+runtime.h"
 
 @implementation AcShareXcode
 

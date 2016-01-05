@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A24B99E31C2A33D60085BA90 /* AcShare.m in Sources */ = {isa = PBXBuildFile; fileRef = A24B99E21C2A33D60085BA90 /* AcShare.m */; };
 		A2674ED71C2B9E8B00815B0A /* AcShareXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = A2674ED61C2B9E8B00815B0A /* AcShareXcode.m */; };
+		A28319951C3BBE94003A97FE /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = A28319941C3BBE94003A97FE /* NSObject+runtime.m */; };
 		A2D21D101C29261F009002C5 /* AcHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21CF41C29261F009002C5 /* AcHook.m */; };
 		A2D21D111C29261F009002C5 /* DVTTextCompletionSession+hook.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21CF61C29261F009002C5 /* DVTTextCompletionSession+hook.m */; };
 		A2D21D121C29261F009002C5 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21CF91C29261F009002C5 /* JRSwizzle.m */; };
@@ -29,6 +30,8 @@
 		A2674ED51C2B9E8B00815B0A /* AcShareXcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcShareXcode.h; sourceTree = "<group>"; };
 		A2674ED61C2B9E8B00815B0A /* AcShareXcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcShareXcode.m; sourceTree = "<group>"; };
 		A2674ED81C2BB76200815B0A /* AcXcodePrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcXcodePrivate.h; sourceTree = "<group>"; };
+		A28319931C3BBE94003A97FE /* NSObject+runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+runtime.h"; sourceTree = "<group>"; };
+		A28319941C3BBE94003A97FE /* NSObject+runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+runtime.m"; sourceTree = "<group>"; };
 		A2D21CF31C29261F009002C5 /* AcHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcHook.h; sourceTree = "<group>"; };
 		A2D21CF41C29261F009002C5 /* AcHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcHook.m; sourceTree = "<group>"; };
 		A2D21CF51C29261F009002C5 /* DVTTextCompletionSession+hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionSession+hook.h"; sourceTree = "<group>"; };
@@ -98,6 +101,15 @@
 			path = AcKeyWindow;
 			sourceTree = "<group>";
 		};
+		A28319921C3BBE94003A97FE /* NSObject+runtime */ = {
+			isa = PBXGroup;
+			children = (
+				A28319931C3BBE94003A97FE /* NSObject+runtime.h */,
+				A28319941C3BBE94003A97FE /* NSObject+runtime.m */,
+			);
+			path = "NSObject+runtime";
+			sourceTree = "<group>";
+		};
 		A2D21CF11C29261F009002C5 /* AcPanda */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +129,7 @@
 				A2D21CF41C29261F009002C5 /* AcHook.m */,
 				A2D21CF51C29261F009002C5 /* DVTTextCompletionSession+hook.h */,
 				A2D21CF61C29261F009002C5 /* DVTTextCompletionSession+hook.m */,
+				A28319921C3BBE94003A97FE /* NSObject+runtime */,
 				A2D21CF71C29261F009002C5 /* JRSwizzle */,
 				A2D21CFA1C29261F009002C5 /* XcodeHeaders */,
 			);
@@ -293,6 +306,7 @@
 				A2674ED71C2B9E8B00815B0A /* AcShareXcode.m in Sources */,
 				A2D21D121C29261F009002C5 /* JRSwizzle.m in Sources */,
 				A2F263351C279AD90058CCB8 /* AcPandaDemo.m in Sources */,
+				A28319951C3BBE94003A97FE /* NSObject+runtime.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

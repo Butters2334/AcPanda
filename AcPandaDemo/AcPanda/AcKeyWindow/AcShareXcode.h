@@ -37,6 +37,7 @@
  *      IDEWorkspaceWindow
  *          windowController:                   IDEWorkspaceWindowController
  *              editorArea:                     IDEEditorArea
+ *                  primaryEditorDocument:      IDESourceCodeDocument
  *                  lastActiveEditorContext:    IDEEditorContext
  *                      (当前编辑框)调试框编辑时:
  *                      editor:                 IDEEditorEmpty
@@ -44,9 +45,16 @@
  *                      (当前编辑框)主代码编辑时:
  *                      editor:                 IDESourceCodeEditor
  *                          textView:           DVTSourceTextView(代码编辑框)
+ *                          sourceCodeDocument: IDESourceCodeDocument
  *                      (当前编辑框)开启代码版本对比工具时,左右都一样:
  *                      editor:                 IDESourceCodeComparisonEditor
  *                          keyTextView:        DVTSourceTextView(代码编辑框)
+ *                          primaryDocument:    IDESourceCodeDocument
+ *              activeWorkspaceTabController:   IDEWorkspaceTabController
+ *                  navigatorArea:              IDENavigatorArea
+ *                      extensionsController:   NSArrayController
+ *                      currentNavigator:       id
+ *                  structureEditWorkspaceTabController:IDEWorkspaceTabController
  *          document:                           IDEWorkspaceDocument
  *              workspace:                      IDEWorkspace
  *                  representingFilePath:       DVTFilePath

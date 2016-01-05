@@ -42,6 +42,7 @@
     {
         return;
     }
+    
     //主代码编辑框
     if([notification.object isKindOfClass:NSClassFromString(@"DVTSourceTextView")])
     {

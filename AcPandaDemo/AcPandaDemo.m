@@ -70,7 +70,7 @@ static AcPandaDemo *sharedPlugin;
                                                                 action:nil
                                                          keyEquivalent:@""];
         [actionMenuItem setTarget:AcShareXcode.class];
-        [actionMenuItem setAction:@selector(textView)];
+        [actionMenuItem setAction:@selector(workspaceDocument)];
         [[menuItem submenu] addItem:actionMenuItem];
     }
     
@@ -80,11 +80,12 @@ static AcPandaDemo *sharedPlugin;
 //    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
 //    NSLog(@"%@",[ud dictionaryRepresentation]);
     
-    [AcHook loadHook];
+//    [AcHook loadHook];
     
     [AcNotification loadNotification];
     
 //    [AcShareXcode currentEditor];
+//    [AcShareXcode workspaceDocument];
 }
 
 #pragma mark allNotification
