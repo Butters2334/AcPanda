@@ -6,7 +6,8 @@
 
 //#import "IDEEditorDocument.h"
 
-#import "DVTTextStorage.h"
+#import <Cocoa/Cocoa.h>
+//#import "DVTTextStorage.h"
 //#import "DVTSourceLandmarkProvider.h"
 //#import "DVTSourceTextViewDelegate.h"
 //#import "DVTTextFindable.h"
@@ -191,7 +192,7 @@
 @property(readonly, nonatomic) NSDictionary *sourceLanguageServiceContext;
 - (id)supportedSourceCodeLanguagesForSourceCodeGeneration;
 - (id)textDocumentLocationForInsertingSourceCode:(id)arg1 atLocation:(unsigned long long)arg2;
-@property(readonly) DVTTextStorage *textStorage; // @synthesize textStorage=_textStorage;
+//@property(readonly) DVTTextStorage *textStorage; // @synthesize textStorage=_textStorage;
 - (void)textStorageDidProcessEditing:(id)arg1;
 - (void)textStorageDidUpdateSourceLandmarks:(id)arg1;
 - (BOOL)textStorageShouldAllowEditing:(id)arg1;
@@ -208,5 +209,8 @@
 @property(readonly) Class superclass;
 @property unsigned long long supportedMatchingOptions;
 
+
+- (DVTTextStorage *)textStorage;
+- (NSUndoManager *)undoManager;
 @end
 

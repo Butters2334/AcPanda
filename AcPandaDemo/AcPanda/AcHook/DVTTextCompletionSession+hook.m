@@ -6,11 +6,11 @@
 //  Copyright © 2015年 Ancc. All rights reserved.
 //
 
-#import "DVTTextCompletionSession+hook.h"
+#import "DVTTextCompletionSession+Hook.h"
 #import "XcodeHeaders/DVTTextCompletionItem_protocol.h"
 #import "JRSwizzle/JRSwizzle.h"
 
-@implementation DVTTextCompletionSession (hook)
+@implementation DVTTextCompletionSession (Hook)
 + (void)hook_swizzleMethods
 {
     NSError *error;

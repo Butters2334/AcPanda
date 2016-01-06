@@ -80,9 +80,9 @@ static AcPandaDemo *sharedPlugin;
 //    NSUserDefaults *ud = [NSUserDefaults standardUserDefaults];
 //    NSLog(@"%@",[ud dictionaryRepresentation]);
     
-//    [AcHook loadHook];
+    [AcHook loadHook];
     
-    [AcNotification loadNotification];
+//    [AcNotification loadNotification];
     
 //    [AcShareXcode currentEditor];
 //    [AcShareXcode workspaceDocument];

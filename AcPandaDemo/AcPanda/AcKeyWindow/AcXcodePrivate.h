@@ -9,6 +9,7 @@
 //  this file is from https://github.com/qfish/XAlign/blob/master/Xcode/xprivates.h
 
 #import <Cocoa/Cocoa.h>
+#import "IDESourceCodeDocument.h"
 
 @interface DVTTextDocumentLocation : NSObject
 @property (readonly) NSRange characterRange;
@@ -83,10 +84,11 @@
 + (void)releaseEditorDocument:(id)arg1;
 @end
 
-@interface IDESourceCodeDocument : NSDocument
-- (DVTSourceTextStorage *)textStorage;
-- (NSUndoManager *)undoManager;
-@end
+//迁移到IDESourceCodeDocument.h中
+//@interface IDESourceCodeDocument : NSDocument
+//- (DVTSourceTextStorage *)textStorage;
+//- (NSUndoManager *)undoManager;
+//@end
 
 @interface IDESourceCodeComparisonEditor : NSObject
 @property (readonly) NSTextView *keyTextView;
