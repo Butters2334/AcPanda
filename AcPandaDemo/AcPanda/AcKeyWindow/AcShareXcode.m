@@ -53,6 +53,21 @@
     
     return nil;
 }
++(IDENavigatorArea *)ideNavigatorArea
+{
+    NSWindowController *currentWindowController = [[NSApp keyWindow] windowController];
+    if ([currentWindowController isKindOfClass:NSClassFromString(@"IDEWorkspaceWindowController")])
+    {
+        IDEWorkspaceWindowController *workspaceController = (IDEWorkspaceWindowController *)currentWindowController;
+        IDEWorkspaceTabController *tabController = [workspaceController activeWorkspaceTabController];
+        return [tabController navigatorArea];
+    }
+    return nil;
+}
++(NSArrayController *)ideNavArrayController
+{
+    return [[self ideNavigatorArea]extensionsController];
+}
 
 + (NSTextView *)textView
 {

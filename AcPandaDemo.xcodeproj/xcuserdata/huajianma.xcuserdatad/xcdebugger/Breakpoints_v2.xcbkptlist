@@ -122,11 +122,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "AcPandaDemo/AcPanda/AcKeyWindow/AcShareXcode.m"
-            timestampString = "473677715.052272"
+            timestampString = "473765426.613848"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "59"
-            endingLineNumber = "59"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
             landmarkName = "+textView"
             landmarkType = "5">
          </BreakpointContent>
@@ -166,22 +166,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "AcPandaDemo/AcPanda/AcKeyWindow/AcShareXcode.m"
-            timestampString = "473678027.967554"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "+workspaceDocument"
-            landmarkType = "5">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
@@ -201,13 +185,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AcPandaDemo/AcPanda/AcHook/IDESourceCodeDocument+Hook.m"
-            timestampString = "473749419.626218"
+            filePath = "AcPandaDemo/AcPanda/AcKeyWindow/AcShareXcode.m"
+            timestampString = "473764442.368339"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "-hook_sourceCodeGenerator:commitInsertionOfSourceCodeForCompositeResult:error:"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "+workspaceDocument"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>
@@ -217,13 +201,29 @@
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "AcPandaDemo/AcPanda/AcHook/IDESourceCodeDocument+Hook.m"
-            timestampString = "473749588.411891"
+            filePath = "AcPandaDemo/AcPanda/AcKeyWindow/AcShareXcode.m"
+            timestampString = "473765409.429746"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
-            landmarkName = "+hook_swizzleMethods"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "+ideNavigatorArea"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "AcPandaDemo/AcPanda/AcKeyWindow/AcShareXcode.m"
+            timestampString = "473765743.321722"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
+            landmarkName = "+ideNavArrayController"
             landmarkType = "5">
          </BreakpointContent>
       </BreakpointProxy>

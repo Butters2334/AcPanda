@@ -10,12 +10,17 @@
 @class IDEWorkspaceDocument;
 @class IDESourceCodeDocument;
 @class NSTextView;
+@class IDENavigatorArea;
+@class NSArrayController;
 
 @interface AcShareXcode : NSObject
 + (id)currentEditor;
 + (IDEWorkspaceDocument *)workspaceDocument;
 + (IDESourceCodeDocument *)sourceCodeDocument;
 + (NSTextView *)textView;
+
++(IDENavigatorArea *)ideNavigatorArea;
++(NSArrayController *)ideNavArrayController;
 @end
 
 

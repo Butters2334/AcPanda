@@ -10,7 +10,6 @@
 		A2178A4B1C3CB95B0036A254 /* DVTFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2178A2D1C3CB95B0036A254 /* DVTFoundation.framework */; };
 		A2178A4C1C3CB95B0036A254 /* DVTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2178A2F1C3CB95B0036A254 /* DVTKit.framework */; };
 		A2178A4D1C3CB95B0036A254 /* IDEKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2178A3E1C3CB95B0036A254 /* IDEKit.framework */; };
-		A2178A501C3CBA1A0036A254 /* IDESourceCodeDocument+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = A2178A4F1C3CBA1A0036A254 /* IDESourceCodeDocument+Hook.m */; };
 		A2178A551C3CBEB00036A254 /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2178A531C3CBD330036A254 /* IDEFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		A2178A571C3CC0580036A254 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2178A561C3CC0580036A254 /* Cocoa.framework */; };
 		A24B99E31C2A33D60085BA90 /* AcShare.m in Sources */ = {isa = PBXBuildFile; fileRef = A24B99E21C2A33D60085BA90 /* AcShare.m */; };
@@ -59,8 +58,6 @@
 		A2178A481C3CB95B0036A254 /* IDESourceLanguageServiceSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDESourceLanguageServiceSwift.h; sourceTree = "<group>"; };
 		A2178A491C3CB95B0036A254 /* IDESourceLanguageServiceSwiftDiagnosticItems-Protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IDESourceLanguageServiceSwiftDiagnosticItems-Protocol.h"; sourceTree = "<group>"; };
 		A2178A4A1C3CB95B0036A254 /* IDEViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDEViewController.h; sourceTree = "<group>"; };
-		A2178A4E1C3CBA1A0036A254 /* IDESourceCodeDocument+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "IDESourceCodeDocument+Hook.h"; sourceTree = "<group>"; };
-		A2178A4F1C3CBA1A0036A254 /* IDESourceCodeDocument+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "IDESourceCodeDocument+Hook.m"; sourceTree = "<group>"; };
 		A2178A531C3CBD330036A254 /* IDEFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = IDEFoundation.framework; sourceTree = "<group>"; };
 		A2178A561C3CC0580036A254 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A24B99E11C2A33D60085BA90 /* AcShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcShare.h; sourceTree = "<group>"; };
@@ -193,8 +190,6 @@
 				A2D21CF41C29261F009002C5 /* AcHook.m */,
 				A2D21CF51C29261F009002C5 /* DVTTextCompletionSession+Hook.h */,
 				A2D21CF61C29261F009002C5 /* DVTTextCompletionSession+Hook.m */,
-				A2178A4E1C3CBA1A0036A254 /* IDESourceCodeDocument+Hook.h */,
-				A2178A4F1C3CBA1A0036A254 /* IDESourceCodeDocument+Hook.m */,
 				A2178A2B1C3CB95B0036A254 /* XcodeHeaders */,
 				A28319921C3BBE94003A97FE /* NSObject+runtime */,
 				A2D21CF71C29261F009002C5 /* JRSwizzle */,
@@ -347,7 +342,6 @@
 				A2D21D111C29261F009002C5 /* DVTTextCompletionSession+Hook.m in Sources */,
 				A2D21D101C29261F009002C5 /* AcHook.m in Sources */,
 				A24B99E31C2A33D60085BA90 /* AcShare.m in Sources */,
-				A2178A501C3CBA1A0036A254 /* IDESourceCodeDocument+Hook.m in Sources */,
 				A2D21D161C29261F009002C5 /* AcMenu.m in Sources */,
 				A2674ED71C2B9E8B00815B0A /* AcShareXcode.m in Sources */,
 				A2D21D121C29261F009002C5 /* JRSwizzle.m in Sources */,

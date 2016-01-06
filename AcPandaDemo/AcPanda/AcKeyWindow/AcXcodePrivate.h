@@ -72,6 +72,7 @@
 
 @interface IDENavigatorArea : NSObject
 - (id)currentNavigator;
+-(NSArrayController *)extensionsController;
 @end
 
 @interface IDEWorkspaceTabController : NSObject

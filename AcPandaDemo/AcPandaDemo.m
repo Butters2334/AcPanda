@@ -69,8 +69,8 @@ static AcPandaDemo *sharedPlugin;
         NSMenuItem *actionMenuItem = [[NSMenuItem alloc] initWithTitle:@"🐼"
                                                                 action:nil
                                                          keyEquivalent:@""];
-        [actionMenuItem setTarget:AcShareXcode.class];
-        [actionMenuItem setAction:@selector(workspaceDocument)];
+        [actionMenuItem setTarget:self];
+        [actionMenuItem setAction:@selector(menuItemEvent:)];
         [[menuItem submenu] addItem:actionMenuItem];
     }
     
@@ -91,6 +91,20 @@ static AcPandaDemo *sharedPlugin;
 #pragma mark allNotification
 
 #pragma mark allHook
+
+#pragma makr allKeyWindows
+-(void)menuItemEvent:(NSMenuItem *)item
+{
+    NSArrayController *arrController = [AcShareXcode ideNavArrayController];
+    NSInteger selectionIndex = [arrController selectionIndex];
+    selectionIndex++;
+    if(selectionIndex>=[[arrController arrangedObjects]count])
+    {
+        selectionIndex=0;
+    }
+    [arrController setSelectionIndex:selectionIndex];
+    
+}
 @end
 
 
