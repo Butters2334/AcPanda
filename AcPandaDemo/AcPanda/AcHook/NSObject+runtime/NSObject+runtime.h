@@ -36,6 +36,9 @@
 
 //-(void)addProperty
 
+
+/**获取所有的熟悉和对应的值*/
+-(NSString *)allKeyAndValue;
 @end
 
 

@@ -24,7 +24,7 @@
 + (id)defaultViewNibBundle;
 + (id)defaultViewNibName;
 + (void)initialize;
-//- (void).cxx_destruct;
+////- (void).cxx_destruct;
 - (void)_didInstallContentView:(id)arg1;
 - (void)_willUninstallContentView:(id)arg1;
 - (BOOL)becomeFirstResponder;

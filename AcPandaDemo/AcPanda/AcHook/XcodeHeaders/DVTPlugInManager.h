@@ -45,7 +45,7 @@
 + (void)initialize;
 @property(retain) DVTPlugInLocator *plugInLocator; // @synthesize plugInLocator=_plugInLocator;
 @property BOOL shouldClearPlugInCaches; // @synthesize shouldClearPlugInCaches=_shouldClearPlugInCaches;
-//- (void).cxx_destruct;
+////- (void).cxx_destruct;
 - (id)_invalidExtensionWithIdentifier:(id)arg1;
 - (id)_plugInCachePath;
 - (id)_applicationCachesPath;

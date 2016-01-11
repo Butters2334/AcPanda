@@ -61,7 +61,7 @@
 + (id)keyPathsForValuesAffecting_firstEditorWorkspace;
 + (id)syntaxColoringPrefetchLogAspect;
 + (id)topLevelStructureLogAspect;
-//- (void).cxx_destruct;
+////- (void).cxx_destruct;
 - (void)_adjustNodeTypeForIdentifierItem:(id)arg1 withContext:(id)arg2;
 //- (id)_classModelItemForClassNamed:(id)arg1 withConditionBlock:(CDUnknownBlockType)arg2;
 - (void)_configureDocumentReadFromURL:(id)arg1 orData:(id)arg2 ofType:(id)arg3 usedEncoding:(unsigned long long)arg4 preferredLineEndings:(unsigned long long)arg5 readOutAttributes:(id)arg6;

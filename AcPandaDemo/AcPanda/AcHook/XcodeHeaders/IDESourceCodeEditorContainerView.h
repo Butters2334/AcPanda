@@ -19,7 +19,7 @@
 }
 
 + (void)initialize;
-//- (void).cxx_destruct;
+////- (void).cxx_destruct;
 - (void)didCompleteLayout;
 @property(retain) IDESourceCodeEditor *editor; // @synthesize editor=_editor;
 - (void)primitiveInvalidate;

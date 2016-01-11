@@ -70,7 +70,7 @@ static AcPandaDemo *sharedPlugin;
         [[menuItem submenu] addItem:[NSMenuItem separatorItem]];
         //新建一个功能按钮,可以不添加事件
         NSMenuItem *actionMenuItem = [[NSMenuItem alloc] init];
-        [actionMenuItem setTitle:@"🐼1"];
+        [actionMenuItem setTitle:@"🐼"];
         //设置按钮的事件
         [actionMenuItem setTarget:self];
         [actionMenuItem setAction:@selector(menuItemEvent:)];

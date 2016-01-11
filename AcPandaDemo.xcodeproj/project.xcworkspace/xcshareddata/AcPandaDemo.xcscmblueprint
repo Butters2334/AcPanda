@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "382FD615D1D3E1A77DC8745D65806AEA431E1F17",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E43321E922448B08D2E0A2869738B5EFC38F9AB4" : 0,
+    "382FD615D1D3E1A77DC8745D65806AEA431E1F17" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "322E52A2-C3C6-4EAF-AD05-412E249EEE91",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E43321E922448B08D2E0A2869738B5EFC38F9AB4" : "AcPandaDemo\/AcPandaDemo\/AcPanda\/Xcode6-RuntimeHeaders\/",
+    "382FD615D1D3E1A77DC8745D65806AEA431E1F17" : "AcPandaDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "AcPandaDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "AcPandaDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/anmac\/AcPanda.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "382FD615D1D3E1A77DC8745D65806AEA431E1F17"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/zolomatok\/Xcode6-RuntimeHeaders.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E43321E922448B08D2E0A2869738B5EFC38F9AB4"
+    }
+  ]
+}

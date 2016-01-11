@@ -61,7 +61,7 @@
 + (void)initialize;
 + (id)keyPathsForValuesAffectingSourceLanguageServiceContext;
 + (BOOL)usesScreenFonts;
-//- (void).cxx_destruct;
+////- (void).cxx_destruct;
 - (id)_ancestorItemForTokenizableItem:(id)arg1;
 - (id)_associatedTextViews;
 - (id)_debugInfoForChangeIndex:(unsigned long long)arg1 toChangeIndex:(unsigned long long)arg2;

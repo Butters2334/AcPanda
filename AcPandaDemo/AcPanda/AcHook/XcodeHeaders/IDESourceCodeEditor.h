@@ -112,7 +112,7 @@
 + (id)keyPathsForValuesAffectingIsWorkspaceBuilding;
 + (void)revertStateWithDictionary:(id)arg1 withSourceTextView:(id)arg2 withSourceCodeDocument:(id)arg3;
 + (long long)version;
-//- (void).cxx_destruct;
+////- (void).cxx_destruct;
 - (void)_applyPerFileTextSettings;
 - (void)_askToPromoteToUnicode;
 - (void)_blueprintDidChangeForSourceCodeEditor:(id)arg1;

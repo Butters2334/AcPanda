@@ -158,4 +158,14 @@
     }
     return nameList;
 }
+/**获取所有的熟悉和对应的值*/
+-(NSString *)allKeyAndValue
+{
+    NSMutableString *allKV = [NSMutableString new];
+    for(NSString *property in [self propertyList])
+    {
+        [allKV appendFormat:@"%@=%@\n",property,[self valueForKey:property]];
+    }
+    return  allKV;
+}
 @end

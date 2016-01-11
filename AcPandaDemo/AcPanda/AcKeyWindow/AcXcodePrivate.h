@@ -149,7 +149,7 @@
 @property(readonly) NSImage *image; // @synthesize image=_image;
 @property(readonly) NSString *toolTip; // @synthesize toolTip=_toolTip;
 @property(readonly) NSString *title; // @synthesize title=_title;
-//- (void).cxx_destruct;
+////- (void).cxx_destruct;
 - (id)description;
 - (id)initWithTitle:(id)arg1 toolTip:(id)arg2 image:(id)arg3 representedObject:(id)arg4;
 @end

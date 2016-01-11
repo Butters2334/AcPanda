@@ -24,7 +24,7 @@
 }
 
 + (BOOL)canProvideCurrentSelectedItems;
-//- (void).cxx_destruct;
+////- (void).cxx_destruct;
 - (id)_getUndoManager:(BOOL)arg1;
 - (id)_initWithNibName:(id)arg1 bundle:(id)arg2;
 - (id)createFindBar;

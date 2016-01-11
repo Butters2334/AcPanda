@@ -24,7 +24,7 @@
 + (id)keyPathsForValuesAffectingWorkspace;
 + (id)keyPathsForValuesAffectingWorkspaceDocument;
 + (long long)version;
-//- (void).cxx_destruct;
+////- (void).cxx_destruct;
 - (void)_invalidateSubViewControllersForView:(id)arg1;
 - (BOOL)_knowsAboutInstalledState;
 - (void)_resolveWorkspaceDocumentProvider;
