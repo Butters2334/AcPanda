@@ -35,6 +35,16 @@
                                             selector:@selector(noti_textDidChange:)
                                                 name:NSTextViewDidChangeSelectionNotification
                                               object:nil];
+//    //监控所有通知
+    [[NSNotificationCenter defaultCenter]addObserver:self
+                                            selector:@selector(allNotification:)
+                                                name:nil
+                                              object:nil];
+//    [[NSNotificationCenter defaultCenter]addObserver:self
+//                                            selector:@selector(noti_willProcessEditing:)
+//                                                name:NSTextStorageDidProcessEditingNotification
+//                                              object:nil];
+    
 }
 -(void)noti_textDidChange:(NSNotification *)notification
 {
@@ -79,6 +89,14 @@
         
     }
     //NSTextView基本所有输入框都有通知回调,但是没有找到明显标识符,不建议使用通知找其他TextView,推荐使用Hook实现.
+}
+-(void)allNotification:(NSNotification *)notification
+{
+    NSLog(@"%@",notification);
+}
+-(void)noti_willProcessEditing:(NSNotification *)notification
+{
+    NSLog(@"%@",notification);
 }
 @end
 

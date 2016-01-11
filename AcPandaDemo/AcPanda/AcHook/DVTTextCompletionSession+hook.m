@@ -35,7 +35,7 @@
     id<DVTTextCompletionItem> completionItem = [filteredList objectAtIndex:index];
     //关键替换项
     NSString *completionText = [completionItem completionText];
-    //
+    //选中项
     NSLog(@"%@",completionText);
     //
     return [self hook_insertCurrentCompletion];

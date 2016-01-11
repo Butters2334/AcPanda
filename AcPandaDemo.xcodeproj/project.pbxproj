@@ -13,6 +13,7 @@
 		A2178A551C3CBEB00036A254 /* IDEFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2178A531C3CBD330036A254 /* IDEFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 		A2178A571C3CC0580036A254 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2178A561C3CC0580036A254 /* Cocoa.framework */; };
 		A24B99E31C2A33D60085BA90 /* AcShare.m in Sources */ = {isa = PBXBuildFile; fileRef = A24B99E21C2A33D60085BA90 /* AcShare.m */; };
+		A24DF3281C3E5AD800F38FA4 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = A24DF3271C3E5AD800F38FA4 /* Aspects.m */; };
 		A2674ED71C2B9E8B00815B0A /* AcShareXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = A2674ED61C2B9E8B00815B0A /* AcShareXcode.m */; };
 		A28319951C3BBE94003A97FE /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = A28319941C3BBE94003A97FE /* NSObject+runtime.m */; };
 		A2D21D101C29261F009002C5 /* AcHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21CF41C29261F009002C5 /* AcHook.m */; };
@@ -27,6 +28,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2153A5C1C3E351A00BED1D4 /* DVTPlugInManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTPlugInManager.h; sourceTree = "<group>"; };
 		A2178A2C1C3CB95B0036A254 /* DVTDeviceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTDeviceService.h; sourceTree = "<group>"; };
 		A2178A2D1C3CB95B0036A254 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DVTFoundation.framework; sourceTree = "<group>"; };
 		A2178A2E1C3CB95B0036A254 /* DVTInvalidation_protocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTInvalidation_protocol.h; sourceTree = "<group>"; };
@@ -62,6 +64,8 @@
 		A2178A561C3CC0580036A254 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		A24B99E11C2A33D60085BA90 /* AcShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcShare.h; sourceTree = "<group>"; };
 		A24B99E21C2A33D60085BA90 /* AcShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcShare.m; sourceTree = "<group>"; };
+		A24DF3261C3E5AD800F38FA4 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		A24DF3271C3E5AD800F38FA4 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
 		A2674ED51C2B9E8B00815B0A /* AcShareXcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcShareXcode.h; sourceTree = "<group>"; };
 		A2674ED61C2B9E8B00815B0A /* AcShareXcode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcShareXcode.m; sourceTree = "<group>"; };
 		A2674ED81C2BB76200815B0A /* AcXcodePrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcXcodePrivate.h; sourceTree = "<group>"; };
@@ -139,6 +143,7 @@
 				A2178A481C3CB95B0036A254 /* IDESourceLanguageServiceSwift.h */,
 				A2178A491C3CB95B0036A254 /* IDESourceLanguageServiceSwiftDiagnosticItems-Protocol.h */,
 				A2178A4A1C3CB95B0036A254 /* IDEViewController.h */,
+				A2153A5C1C3E351A00BED1D4 /* DVTPlugInManager.h */,
 			);
 			path = XcodeHeaders;
 			sourceTree = "<group>";
@@ -150,6 +155,15 @@
 				A24B99E21C2A33D60085BA90 /* AcShare.m */,
 			);
 			path = AcShare;
+			sourceTree = "<group>";
+		};
+		A24DF3251C3E5AD800F38FA4 /* Aspects */ = {
+			isa = PBXGroup;
+			children = (
+				A24DF3261C3E5AD800F38FA4 /* Aspects.h */,
+				A24DF3271C3E5AD800F38FA4 /* Aspects.m */,
+			);
+			path = Aspects;
 			sourceTree = "<group>";
 		};
 		A2674ED41C2B9E7C00815B0A /* AcKeyWindow */ = {
@@ -190,6 +204,7 @@
 				A2D21CF41C29261F009002C5 /* AcHook.m */,
 				A2D21CF51C29261F009002C5 /* DVTTextCompletionSession+Hook.h */,
 				A2D21CF61C29261F009002C5 /* DVTTextCompletionSession+Hook.m */,
+				A24DF3251C3E5AD800F38FA4 /* Aspects */,
 				A2178A2B1C3CB95B0036A254 /* XcodeHeaders */,
 				A28319921C3BBE94003A97FE /* NSObject+runtime */,
 				A2D21CF71C29261F009002C5 /* JRSwizzle */,
@@ -343,6 +358,7 @@
 				A2D21D101C29261F009002C5 /* AcHook.m in Sources */,
 				A24B99E31C2A33D60085BA90 /* AcShare.m in Sources */,
 				A2D21D161C29261F009002C5 /* AcMenu.m in Sources */,
+				A24DF3281C3E5AD800F38FA4 /* Aspects.m in Sources */,
 				A2674ED71C2B9E8B00815B0A /* AcShareXcode.m in Sources */,
 				A2D21D121C29261F009002C5 /* JRSwizzle.m in Sources */,
 				A2F263351C279AD90058CCB8 /* AcPandaDemo.m in Sources */,
