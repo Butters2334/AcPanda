@@ -81,3 +81,11 @@ typedef NS_ENUM(NSUInteger, AspectErrorCode) {
 };
 
 extern NSString *const AspectErrorDomain;
+
+
+
+
+//[objc_getClass("DVTTableCellViewMultiLine") aspect_hookSelector:@selector(awakeFromNib)
+//                                                    withOptions:AspectPositionAfter
+//                                                     usingBlock:fontBlock
+//                                                          error:nil];

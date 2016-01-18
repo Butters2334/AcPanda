@@ -91,7 +91,7 @@ static AcPandaDemo *sharedPlugin;
     
     [AcHook loadHook];
     
-    [AcNotification loadNotification];
+//    [AcNotification loadNotification];
     
 //    [AcShareXcode currentEditor];
 //    [AcShareXcode workspaceDocument];

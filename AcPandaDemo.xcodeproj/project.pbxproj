@@ -16,6 +16,7 @@
 		A24DF3281C3E5AD800F38FA4 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = A24DF3271C3E5AD800F38FA4 /* Aspects.m */; };
 		A2674ED71C2B9E8B00815B0A /* AcShareXcode.m in Sources */ = {isa = PBXBuildFile; fileRef = A2674ED61C2B9E8B00815B0A /* AcShareXcode.m */; };
 		A28319951C3BBE94003A97FE /* NSObject+runtime.m in Sources */ = {isa = PBXBuildFile; fileRef = A28319941C3BBE94003A97FE /* NSObject+runtime.m */; };
+		A2A878B21C4CD7060015FE03 /* DVTSourceLanguageService+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A878B11C4CD7060015FE03 /* DVTSourceLanguageService+Hook.m */; };
 		A2D21D101C29261F009002C5 /* AcHook.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21CF41C29261F009002C5 /* AcHook.m */; };
 		A2D21D111C29261F009002C5 /* DVTTextCompletionSession+Hook.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21CF61C29261F009002C5 /* DVTTextCompletionSession+Hook.m */; };
 		A2D21D121C29261F009002C5 /* JRSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = A2D21CF91C29261F009002C5 /* JRSwizzle.m */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A20EC9331C4CBA6300C933E1 /* DVTSourceLanguageService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DVTSourceLanguageService.h; path = ../DVTSourceLanguageService.h; sourceTree = "<group>"; };
 		A2153A5C1C3E351A00BED1D4 /* DVTPlugInManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTPlugInManager.h; sourceTree = "<group>"; };
 		A2178A2C1C3CB95B0036A254 /* DVTDeviceService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVTDeviceService.h; sourceTree = "<group>"; };
 		A2178A2D1C3CB95B0036A254 /* DVTFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DVTFoundation.framework; sourceTree = "<group>"; };
@@ -71,6 +73,8 @@
 		A2674ED81C2BB76200815B0A /* AcXcodePrivate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AcXcodePrivate.h; sourceTree = "<group>"; };
 		A28319931C3BBE94003A97FE /* NSObject+runtime.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+runtime.h"; sourceTree = "<group>"; };
 		A28319941C3BBE94003A97FE /* NSObject+runtime.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+runtime.m"; sourceTree = "<group>"; };
+		A2A878B01C4CD7060015FE03 /* DVTSourceLanguageService+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTSourceLanguageService+Hook.h"; sourceTree = "<group>"; };
+		A2A878B11C4CD7060015FE03 /* DVTSourceLanguageService+Hook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DVTSourceLanguageService+Hook.m"; sourceTree = "<group>"; };
 		A2D21CF31C29261F009002C5 /* AcHook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcHook.h; sourceTree = "<group>"; };
 		A2D21CF41C29261F009002C5 /* AcHook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcHook.m; sourceTree = "<group>"; };
 		A2D21CF51C29261F009002C5 /* DVTTextCompletionSession+Hook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DVTTextCompletionSession+Hook.h"; sourceTree = "<group>"; };
@@ -111,6 +115,7 @@
 		A2178A2B1C3CB95B0036A254 /* XcodeHeaders */ = {
 			isa = PBXGroup;
 			children = (
+				A20EC9331C4CBA6300C933E1 /* DVTSourceLanguageService.h */,
 				A2178A531C3CBD330036A254 /* IDEFoundation.framework */,
 				A2178A3E1C3CB95B0036A254 /* IDEKit.framework */,
 				A2178A2F1C3CB95B0036A254 /* DVTKit.framework */,
@@ -202,6 +207,8 @@
 			children = (
 				A2D21CF31C29261F009002C5 /* AcHook.h */,
 				A2D21CF41C29261F009002C5 /* AcHook.m */,
+				A2A878B01C4CD7060015FE03 /* DVTSourceLanguageService+Hook.h */,
+				A2A878B11C4CD7060015FE03 /* DVTSourceLanguageService+Hook.m */,
 				A2D21CF51C29261F009002C5 /* DVTTextCompletionSession+Hook.h */,
 				A2D21CF61C29261F009002C5 /* DVTTextCompletionSession+Hook.m */,
 				A24DF3251C3E5AD800F38FA4 /* Aspects */,
@@ -353,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2A878B21C4CD7060015FE03 /* DVTSourceLanguageService+Hook.m in Sources */,
 				A2D21D171C29261F009002C5 /* AcNotification.m in Sources */,
 				A2D21D111C29261F009002C5 /* DVTTextCompletionSession+Hook.m in Sources */,
 				A2D21D101C29261F009002C5 /* AcHook.m in Sources */,

@@ -9,31 +9,17 @@
 #import "AcHook.h"
 #import "DVTTextCompletionSession+Hook.h"
 #import "JRSwizzle.h"
-//
-//@implementation NSView(Hook)
-//+ (void)hook_swizzleMethods
-//{
-//    NSError *error;
-//    [self jr_swizzleMethod: @selector(addSubview:)
-//                withMethod: @selector(hook_addSubview:)
-//                     error: &error];
-//    if(error)
-//    {
-//        NSLog(@"%@",error);
-//    }
-//}
-//- (void)hook_addSubview:(NSView *)aView
-//{
-//    [self hook_addSubview:aView];
-//}
-//
-//@end
+#import "Aspects.h"
+#import "DVTSourceLanguageService.h"
+#import <objc/runtime.h>
+#import "DVTSourceLanguageService+Hook.h"
 
 @implementation AcHook
 +(void)loadHook
 {
-    [DVTTextCompletionSession hook_swizzleMethods];
-//    [NSView hook_swizzleMethods];
+    //[DVTTextCompletionSession hook_swizzleMethods];
+    
+    [DVTSourceLanguageService hook];
 }
 
 @end

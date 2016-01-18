@@ -36,10 +36,10 @@
                                                 name:NSTextViewDidChangeSelectionNotification
                                               object:nil];
 //    //监控所有通知
-    [[NSNotificationCenter defaultCenter]addObserver:self
-                                            selector:@selector(allNotification:)
-                                                name:nil
-                                              object:nil];
+//    [[NSNotificationCenter defaultCenter]addObserver:self
+//                                            selector:@selector(allNotification:)
+//                                                name:nil
+//                                              object:nil];
 //    [[NSNotificationCenter defaultCenter]addObserver:self
 //                                            selector:@selector(noti_willProcessEditing:)
 //                                                name:NSTextStorageDidProcessEditingNotification
